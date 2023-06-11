@@ -16,6 +16,23 @@ cd charts
 python3 main.py
 ```
 
+# Proyecto de web_server
+
+Para correr el web server debes de seguir las siguientes intrucciones en la terminal 
+
+```sh
+cd web_server
+python3 main.py
+```
+
+o para usar el servidor puedes usar este comando
+
+```sh
+uvicorn main:app --reload
+```
+
+
+
 # Proyecto de app
 
 Para correr la app debes de seguir las siguientes intrucciones en la terminal
