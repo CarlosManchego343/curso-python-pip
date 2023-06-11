@@ -28,7 +28,8 @@ def generarGraficaPie(labels, values):
   ig, ax = plt.subplots()
   ax.pie(values, labels = labels)
   ax.axis("equal")
-  plt.show()
+  plot.savefig("pie.png")
+  plot.close()
 
 if __name__ == "__main__":
   data = readCSV("./app/data.csv", "1980 Population")
