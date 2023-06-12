@@ -32,7 +32,6 @@ uvicorn main:app --reload
 ```
 
 
-
 # Proyecto de app
 
 Para correr la app debes de seguir las siguientes intrucciones en la terminal
