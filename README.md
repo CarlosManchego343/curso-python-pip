@@ -66,3 +66,12 @@ Con el siguiente script podras instalar las dependencias y archivos necesarios p
 pip3 install -r requirements.txt
 ```
 
+Para iniciar cualquier contenedor debes primero pararte en el proyecto el cual quieres usar y seguir los paso correspondiente
+
+```sh
+cd web-server
+docker-compose build
+docker-sompose up -d
+docker-compse ps
+```
+
