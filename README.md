@@ -71,7 +71,10 @@ Para iniciar cualquier contenedor debes primero pararte en el proyecto el cual q
 ```sh
 cd web-server
 docker-compose build
-docker-sompose up -d
-docker-compse ps
+docker-compose up -d
+docker-compose ps
+docker-compose exec "nombre del service en docker-compose" bash
 ```
+
+
 
